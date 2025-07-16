@@ -1,0 +1,66 @@
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    background: #f0f0f0;
+    padding-top: 50px;
+}
+
+.container{
+      background-color: white;
+      padding:20px;
+      border-radius: 8px;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1) ;
+
+}
+
+.input-section{
+      display: flex;
+      gap: 10px;
+}
+
+input{
+      padding: 8px;
+      flex: 1;
+}
+
+button{
+    border: none;
+    padding: 8px 12px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+ul{
+     list-style: none;
+     margin-top: 20px;
+     padding: 0;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    border-bottom: 1px solid #ddd;
+}
+
+li.completed{
+     text-decoration: line-through;
+     color: grey;
+}
+
+li button{
+    background: red ;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
